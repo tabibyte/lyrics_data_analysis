@@ -8,7 +8,7 @@ genius = lyricsgenius.Genius("6lC3TdF181uu0sWTqZJmRnU0iPOIzlMoBSSVj8mlVzXbpbth1o
 
 #%%
 
-artist_name= "Okaber"
+artist_name= ""
 artist = genius.search_artist(f"{artist_name}", sort="title")
 
 #%%
