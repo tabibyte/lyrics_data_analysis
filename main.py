@@ -8,7 +8,7 @@ genius = lyricsgenius.Genius("6lC3TdF181uu0sWTqZJmRnU0iPOIzlMoBSSVj8mlVzXbpbth1o
 
 #%%
 
-artist_name= "PayamTurk"
+artist_name= "Okaber"
 artist = genius.search_artist(f"{artist_name}", sort="title")
 
 #%%
@@ -25,7 +25,7 @@ with open(f"Lyrics_{artist_name}.json", "r") as read_file:
 lyrics = ''
 for songs in data['songs']:
     print(songs['full_title'])
-    lyrics = '\n'+'\n' + songs['lyrics']
+    lyrics += '\n'+'\n' + songs['lyrics']
 
 #%%
 
