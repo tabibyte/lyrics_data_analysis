@@ -8,7 +8,7 @@ genius = lyricsgenius.Genius("6lC3TdF181uu0sWTqZJmRnU0iPOIzlMoBSSVj8mlVzXbpbth1o
 
 #%%
 
-artist_name= ""
+artist_name= "PRoMete"
 artist = genius.search_artist(f"{artist_name}", sort="title")
 
 #%%
